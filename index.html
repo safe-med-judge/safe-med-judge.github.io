@@ -754,15 +754,15 @@
         <p class="card-sub">Each output needs <em>k</em> expert ratings under full review.</p>
         <div class="ctrl">
           <div class="ctrl-top"><label for="in-n"><span class="sym">N</span>Outputs to evaluate</label><output id="out-n" for="in-n"></output></div>
-          <input type="range" id="in-n" min="1" max="50000" step="1" value="5000">
+          <input type="range" id="in-n" min="1" max="1000" step="1" value="500">
         </div>
         <div class="ctrl">
           <div class="ctrl-top"><label for="in-k"><span class="sym">k</span>Expert ratings per output</label><output id="out-k" for="in-k"></output></div>
-          <input type="range" id="in-k" min="1" max="5" step="1" value="3">
+          <input type="range" id="in-k" min="1" max="5" step="1" value="2">
         </div>
         <div class="ctrl">
           <div class="ctrl-top"><label for="in-m"><span class="sym">m</span>Calibration set size</label><output id="out-m" for="in-m"></output></div>
-          <input type="range" id="in-m" min="1" max="3000" step="50" value="400">
+          <input type="range" id="in-m" min="1" max="1000" step="50" value="400">
           <small>Default 400: the median rated sample among prior studies that rate generated outputs (our structured review).</small>
         </div>
         <div class="ctrl">
