@@ -587,6 +587,15 @@ input[type="range"]::-moz-range-thumb { width: 14px; height: 14px; border-radius
 .fact .fv { font-size: 22px; font-weight: 650; color: var(--ink); letter-spacing: -0.02em; line-height: 1.2; }
 .fact .fv .to { color: var(--faint); font-weight: 400; margin: 0 4px; }
 .fact p { margin: 6px 0 0; font-size: 13.5px; color: var(--muted); line-height: 1.5; }
+.fact p a { color: var(--muted); text-decoration: none; }
+.fact p a:hover { color: var(--accent); }
+.fact-refs {
+  margin: 14px 0 0; padding: 0 0 0 1.4em; list-style: decimal;
+  font-size: 10.5px; color: var(--faint); line-height: 1.55;
+}
+.fact-refs li { margin: 0 0 4px; padding-left: 0.2em; }
+.fact-refs li:last-child { margin-bottom: 0; }
+.fact-refs em { font-style: italic; }
 @media (max-width: 860px) { .facts { grid-template-columns: 1fr; } }
 
 /* ---------- citation ---------- */
